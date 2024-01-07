@@ -1,0 +1,30 @@
+1. df(649,51)
+
+
+3.  X_train(519,50),X_test(130,50),,,,,,y_train,y_test
+
+4.  X_train_up(852,50),,,,X_test(130,50),,,,,,,,,,,y_train_up(852,1),y_test(130,1)
+    X_train_kb10(852,10),,X_test_kb10(130,10),,,,,,,,,,,y_train_up(852,1),y_test(130,1)
+
+
+5. X_train_scaleI(519,50),X_testscale(130,50),,,,,,y_train,y_test
+6. X_train_scaleU(852,50),X_testscale(130,50),,,,,,y_train_up,y_test
+
+
+
+
+##stability=fmrel*famsize
+##academic_support=df.famsup + df.schoolsup  + df.higher 
+##idle = df.goout*df.freetime
+##grade_avg = round((df.G1 + df.G2 + df.G3)/3, 2)
+
+
+###logistic:77%(k10)
+###DT & RF: 80%(k10)
+###svm:79%(k10)
+###knn:79%  (k15)
+
+
+###LR:(k15)
+MAE : 1.7920546784091607
+MSE : 5.506881045361295
